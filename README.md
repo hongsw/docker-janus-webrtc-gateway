@@ -13,7 +13,7 @@ Disables RabbitMQ and MQTT
 
 ## Build
 
-`docker build -t efacilitation/docker-janus-webrtc-gateway .`
+`docker build -t hongsw/docker-janus-webrtc-gateway .`
 
 ## Ports
 
