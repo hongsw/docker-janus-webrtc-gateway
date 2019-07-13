@@ -17,11 +17,12 @@ Disables RabbitMQ and MQTT
 
 ## Ports
 
-| Port   | Description   |
-|--------|---------------|
-| 80     | HTML-Examples |
-| 8088   | RESTful API   |
-| 8188   | WebSocket API |
+| Port   | Description        |
+|--------|--------------------|
+| 80     | HTML-Examples      |
+| 443    | HTML-Examples(SSL) |
+| 8088   | RESTful API        |
+| 8188   | WebSocket API      |
 
 ## Environment variables
 
@@ -33,4 +34,4 @@ This container does not need any container linked to.
 
 ## Run
 
-`docker run -d -p 80:80 -p 7088:7088 -p 8088:8088 -p 8188:8188 efacilitation/docker-janus-webrtc-gateway:latest`
+'sudo docker run -d -p 80:80 -p 443:443 -p 7889:7889 -p 7088:7088 -p 8088:8088 -p 8188:8188 hongsw/docker-janus-webrtc-gateway:latest
